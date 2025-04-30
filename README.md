@@ -72,6 +72,7 @@ npx expo start
 ---
 
 ## 📸 Demonstração
+![image](https://github.com/user-attachments/assets/d83851af-cce4-425e-af47-0a169ff14584)
 
 
 ---
