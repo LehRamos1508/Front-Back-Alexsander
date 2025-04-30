@@ -7,11 +7,13 @@ const DadosInsert = ({ refetch }) => {
   const [produto, setProduto] = useState("");
   const [quantidade, setQuantidade] = useState("");
 
-  const Add = () => {
-    if (!cliente || !produto || !quantidade) {
-      alert("Preencha todos os campos!");
-      return;
-    }
+const Add = () => {
+  const camposPreenchidos = cliente?.trim() && produto?.trim() && quantidade;
+
+  if (!camposPreenchidos) {
+    alert("Por favor, preencha todos os campos obrigatórios: Cliente, Produto e Quantidade.");
+    return;
+  }
 
     fetch("http://localhost:3000/add", {
       method: "POST",
