@@ -72,7 +72,8 @@ npx expo start
 ---
 
 ## 📸 Demonstração
-![image](https://github.com/user-attachments/assets/d83851af-cce4-425e-af47-0a169ff14584)
+![image](https://github.com/user-attachments/assets/d83851af-cce4-425e-af47-0a169ff14584) ![image](https://github.com/user-attachments/assets/c2dc197c-59fd-43fd-91d1-1a9843d22a7f)
+
 
 
 ---
