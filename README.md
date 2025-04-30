@@ -76,6 +76,39 @@ npx expo start
 
 ---
 
+
+---
+
+## ✅ Verificação dos Requisitos da Atividade
+
+### 1. Frontend (React Native + React Native Paper)
+
+- [x] Layout com pelo menos três campos de entrada de dados (`cliente`, `produto`, `quantidade`)
+- [x] Lista que exibe os itens registrados com `FlatList`
+- [x] Funcionalidades de:
+  - [x] Cadastro
+  - [x] Atualização com modal
+  - [x] Exclusão individual e total
+
+### 2. Backend (API REST com MongoDB)
+
+- [x] Schema/model com os mesmos campos do frontend
+- [x] API funcional com rotas:
+  - `POST /add`
+  - `GET /`
+  - `PATCH /update/:id`
+  - `DELETE /delete/:id`
+  - `DELETE /delete/delete-all`
+
+### 3. Apresentação
+
+- [x] Projeto funcionando localmente com:
+  - Backend rodando em Node.js + MongoDB local
+  - Frontend rodando via Expo
+  - Visualização e edição dos dados em tempo real
+- [x] Pronto para demonstração em sala de aula ✅
+
+
 ## 👨‍💻 Autor
 
 **Alexsander Ramos Ferreira**  
