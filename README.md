@@ -73,7 +73,6 @@ npx expo start
 
 ## 📸 Demonstração
 
-> (Adicione aqui prints ou GIFs da aplicação rodando)
 
 ---
 
